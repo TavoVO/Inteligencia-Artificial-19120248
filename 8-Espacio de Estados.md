@@ -23,19 +23,33 @@ Donde las tres ranas marrones están a la izquierda y las tres ranas verdes a la
 Ahora, generemos el espacio de estados. La complejidad del problema radica en que hay múltiples acciones posibles en cada estado, y algunas acciones pueden llevar a estados que ya se han visitado.
 
 > BBBG_GG
+
 > BB_GBGG
+
 > B_BGBGG
+
 > BGB_BGG
+
 > BGBGB_G
+
 > BGBGBG_
+
 > BGBG_GB
+
 > BG_GBGB
+
 > _GBGBGB
+
 > G_BGBGB
+
 > GGB_BGB
+
 > GGBGB_B
+
 > GGBG_BB
+
 > GG_GBBB
+
 > GGG_BBB
 
 ## Misioneros y Canibales
