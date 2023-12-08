@@ -14,34 +14,29 @@ Vamos a representar las posiciones de las ranas con "G" para las ranas verdes, "
 
 Entonces, un estado posible podría ser algo como:
 
-```
-GBB_GBG
-```
+> GBB_GBG
 
-Donde las tres ranas marrones están a la izquierda y las tres ranas verdes a la derecha. Las acciones posibles incluirían, por ejemplo, que la rana marrón en la posición 3 salte hacia la derecha, resultando en:
+Donde las tres ranas marrones están a la izquierda y las tres ranas verdes a la derecha. Las acciones posibles incluirían, por ejemplo, que la rana marrón en la posición 3 salte hacia la derecha.
 
-```
-GB_BBGG
-```
+> BBB_GGG
 
 Ahora, generemos el espacio de estados. La complejidad del problema radica en que hay múltiples acciones posibles en cada estado, y algunas acciones pueden llevar a estados que ya se han visitado.
 
-Aquí hay algunos estados posibles intermedios en el espacio de estados:
-
-1. **Estado Inicial:**
-   ```
-   GGG_BBB
-   ```
-
-2. **Después de algunos movimientos:**
-   ```
-   GBBB_GG
-   ```
-
-3. **Estado Objetivo:**
-   ```
-   BBB_GGG
-   ```
+> BBBG_GG
+> BB_GBGG
+> B_BGBGG
+> BGB_BGG
+> BGBGB_G
+> BGBGBG_
+> BGBG_GB
+> BG_GBGB
+> _GBGBGB
+> G_BGBGB
+> GGB_BGB
+> GGBGB_B
+> GGBG_BB
+> GG_GBBB
+> GGG_BBB
 
 ## Misioneros y Canibales
 
