@@ -56,10 +56,10 @@ Ahora, generemos el espacio de estados. La complejidad del problema radica en qu
 
 Este problema puede ser modelado como un problema de búsqueda en el espacio de estados. Vamos a definir los elementos clave del problema:
 
-Estado inicial: Representa la situación inicial con tres misioneros y tres caníbales en una orilla del río, y el bote vacío en esa misma orilla.
+- **Estado inicial:** Representa la situación inicial con tres misioneros y tres caníbales en una orilla del río, y el bote vacío en esa misma orilla.
 
-Acciones: Las acciones posibles son mover uno o dos misioneros o caníbales al otro lado del río. El bote tiene capacidad para dos personas, ya sean misioneros, caníbales o una combinación de ambos.
+- **Acciones:** Las acciones posibles son mover uno o dos misioneros o caníbales al otro lado del río. El bote tiene capacidad para dos personas, ya sean misioneros, caníbales o una combinación de ambos.
 
-Estado objetivo: Representa la situación en la que todos los misioneros y caníbales han cruzado el río y se encuentran en la orilla opuesta.
+- **Estado objetivo:** Representa la situación en la que todos los misioneros y caníbales han cruzado el río y se encuentran en la orilla opuesta.
 
 ![img](MyC.jpg)
